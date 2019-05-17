@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/hello-cra-pwa/static/css/main.2cce8147.chunk.css",
-    "main.js": "/hello-cra-pwa/static/js/main.5d5d2158.chunk.js",
-    "main.js.map": "/hello-cra-pwa/static/js/main.5d5d2158.chunk.js.map",
+    "main.js": "/hello-cra-pwa/static/js/main.8e978622.chunk.js",
+    "main.js.map": "/hello-cra-pwa/static/js/main.8e978622.chunk.js.map",
     "runtime~main.js": "/hello-cra-pwa/static/js/runtime~main.2de2f7ec.js",
     "runtime~main.js.map": "/hello-cra-pwa/static/js/runtime~main.2de2f7ec.js.map",
     "static/js/2.c7627d46.chunk.js": "/hello-cra-pwa/static/js/2.c7627d46.chunk.js",
     "static/js/2.c7627d46.chunk.js.map": "/hello-cra-pwa/static/js/2.c7627d46.chunk.js.map",
     "index.html": "/hello-cra-pwa/index.html",
-    "precache-manifest.ecc6bb00120c51e5f5acae7ca5b2a2f9.js": "/hello-cra-pwa/precache-manifest.ecc6bb00120c51e5f5acae7ca5b2a2f9.js",
+    "precache-manifest.b80cb9b2c225a1f11686a0b0641d041b.js": "/hello-cra-pwa/precache-manifest.b80cb9b2c225a1f11686a0b0641d041b.js",
     "service-worker.js": "/hello-cra-pwa/service-worker.js",
     "static/css/main.2cce8147.chunk.css.map": "/hello-cra-pwa/static/css/main.2cce8147.chunk.css.map",
     "static/media/logo.svg": "/hello-cra-pwa/static/media/logo.5d5d9eef.svg"
