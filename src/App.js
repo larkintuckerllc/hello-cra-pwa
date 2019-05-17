@@ -13,7 +13,7 @@ function App({ contentCached, updateAvailable }) {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app"
           target="_blank"
           rel="noopener noreferrer"
         >
