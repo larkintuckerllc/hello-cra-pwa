@@ -17,7 +17,7 @@ function App({ contentCached, updateAvailable }) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React (Progressive Web Apps)
         </a>
         {updateAvailable && <p>New content is available and will be used when all tabs for this page are closed. See https://bit.ly/CRA-PWA.</p>}
         {contentCached && <p>Content is cached for offline use.</p>}
