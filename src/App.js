@@ -19,7 +19,7 @@ function App({ contentCached, updateAvailable }) {
         >
           Learn React (Progressive Web Apps)
         </a>
-        <p>A</p>
+        <p>D</p>
         {updateAvailable && <p>New content is available and will be used when all tabs for this page are closed. See https://bit.ly/CRA-PWA.</p>}
         {contentCached && <p>Content is cached for offline use.</p>}
       </header>
