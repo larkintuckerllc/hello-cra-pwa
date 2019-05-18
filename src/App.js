@@ -2,6 +2,7 @@ import { PropTypes } from 'prop-types';
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import LocalStorage from './components/LocalStorage';
 
 function App({ contentCached, updateAvailable }) {
   return (
@@ -22,6 +23,7 @@ function App({ contentCached, updateAvailable }) {
         <p>E</p>
         {updateAvailable && <p>New content is available and will be used when all tabs for this page are closed. See https://bit.ly/CRA-PWA.</p>}
         {contentCached && <p>Content is cached for offline use.</p>}
+        <LocalStorage />
       </header>
     </div>
   );
