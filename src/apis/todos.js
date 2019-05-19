@@ -11,13 +11,12 @@ export const fetchTodos = async () => {
   try {
     const response = await fetch(URL);
     const todos = await response.json();
-    await db.table("todos").clear();
-    await db.table("todos").bulkAdd(todos);
+    await db.table('todos').clear();
+    await db.table('todos').bulkAdd(todos);
     return todos;
   } catch (error) {
-    // TODO: NEED TO WORRY IF EMPTY
     const todos = await db
-      .table("todos")
+      .table('todos')
       .toArray();
     return todos;
   }
