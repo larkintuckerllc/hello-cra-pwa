@@ -1,6 +1,6 @@
 import { PropTypes } from 'prop-types';
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
 import Home from './components/Home';
@@ -32,9 +32,11 @@ function App({ contentCached, updateAvailable }) {
             <li><Link to="/local-storage/">LocalStorage</Link></li>
             <li><Link to="/indexed-db/">IndexedDB</Link></li>
           </ul>
-          <Route path="/" exact component={Home} />
-          <Route path="/local-storage/" component={LocalStorage} />
-          <Route path="/indexed-db/" component={IndexedDB} />
+          <Switch>
+            <Route path="/local-storage/" component={LocalStorage} />
+            <Route path="/indexed-db/" component={IndexedDB} />
+            <Route component={Home} />
+          </Switch>
         </header>
       </div>
     </Router>

@@ -2,7 +2,7 @@
   "name": "hello-cra-pwa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://larkintuckerllc.github.io/hello-cra-pwa",
+  "homepage": "https://hello-cra-pwa.web.app/",
   "dependencies": {
     "dexie": "^2.0.4",
     "gh-pages": "^2.0.1",
