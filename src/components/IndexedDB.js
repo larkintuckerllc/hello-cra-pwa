@@ -1,7 +1,7 @@
 import React, { Fragment, PureComponent } from 'react';
 import { fetchTodos } from '../apis/todos';
 
-export default class IndexDB extends PureComponent {
+export default class IndexedDB extends PureComponent {
   state = {
     todos: [],
   };
@@ -15,7 +15,7 @@ export default class IndexDB extends PureComponent {
     const { todos } = this.state;
     return (
       <Fragment>
-        <h4>IndexDB Example</h4>
+        <h4>IndexedDB Example</h4>
         <ul>
           {todos.map(todo => <li key={todo.id}>{todo.title}</li>)}
         </ul>

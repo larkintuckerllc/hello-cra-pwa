@@ -3,7 +3,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import LocalStorage from './components/LocalStorage';
-import IndexDB from './components/IndexDB';
+import IndexedDB from './components/IndexedDB';
 
 function App({ contentCached, updateAvailable }) {
   return (
@@ -25,7 +25,7 @@ function App({ contentCached, updateAvailable }) {
         {updateAvailable && <p>New content is available and will be used when all tabs for this page are closed. See https://bit.ly/CRA-PWA.</p>}
         {contentCached && <p>Content is cached for offline use.</p>}
         <LocalStorage />
-        <IndexDB />
+        <IndexedDB />
       </header>
     </div>
   );
