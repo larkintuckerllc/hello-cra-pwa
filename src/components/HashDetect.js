@@ -1,6 +1,13 @@
+import { PropTypes } from 'prop-types';
 import React, { Fragment, PureComponent } from 'react';
 
 export default class HashDetect extends PureComponent {
+  static propTypes = {
+    location: PropTypes.shape({
+      hash: PropTypes.string.isRequired,
+    }),
+  };
+
   state = {
     flag: false,
   };
