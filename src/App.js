@@ -3,7 +3,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
-import HashDetect from './components/HashDetect';
 import Home from './components/Home';
 import IndexedDB from './components/IndexedDB';
 import LocalStorage from './components/LocalStorage';
@@ -32,12 +31,10 @@ function App({ contentCached, updateAvailable }) {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/local-storage/">LocalStorage</Link></li>
             <li><Link to="/indexed-db/">IndexedDB</Link></li>
-            <li><Link to="/hash-detect/">HashDetect</Link></li>
           </ul>
           <Switch>
             <Route path="/local-storage/" component={LocalStorage} />
             <Route path="/indexed-db/" component={IndexedDB} />
-            <Route path="/hash-detect/" component={HashDetect} />
             <Route component={Home} />
           </Switch>
         </header>
